@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(to top ,rgb(0, 0, 0), rgb(27, 27, 27));
+    color: rgb(222, 213, 199);
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.08rem;    
+}
+h1, h2, h3, h4, h5, h6{
+    color: #5f92b2;
+    margin-bottom: 20px;
+}
+h1, h2, h3, h4, h5{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+#My-name{
+    color: #9baab3;
+}
+li{
+    text-indent: 0rem;
+}
+ p{
+    text-indent: 1.4rem;
+    margin: 20px;
+    text-align: start;
+}
+picture{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    text-align: center;
+}
+.tabela{
+    display: flex;
+    justify-content: center;
+}
+.contato{
+    text-align: center;
+}
+nav{
+    color: rgb(31, 30, 30);
+    background-color: #5993b8;
+}
+
+nav a{
+    color: rgb(31, 30, 30);
+}
+ol, ul{
+    list-style: none;
+}
+h6, h5{
+    margin-top: 10px;
+}
+#inicio{
+    box-sizing: border-box;
+    
+}
+

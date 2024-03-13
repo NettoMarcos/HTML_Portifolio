@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Currículo de estudos 
+            <span >
+                Marcos de Carvalho Netto
+            </span>
+        </h1> 
+        <nav>
+            <h2>
+                Navegação principal
+            </h2>
+            <span>
+                <a href="index.html">Início</a>
+            </span>
+            -
+            <span>
+                <a href="sobre.html">Sobre mim</a>
+            </span>
+            -
+            <span>
+                <a href="contato.html">Contato</a>
+            </span>
+            
+        </nav>
+    </header>
+    <main>
+        <header>
+            <h2>
+                Contato
+            </h2>            
+        </header>
+
+        <form action="post">
+            <input type="text" name="nome" placeholder="Nome"><br>
+            <input type="email" name="email" placeholder="E-mail"><br>
+            <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx"><br>
+            <input type="number" name="idade" placeholder="Idade"><br>
+            <input type="url" name="linkedin" placeholder="LinkedIn URL"><br>
+            <input type="range" name="urgencia" min="0" max="100" step="0.5"><br>
+            <input type="checkbox" name="dia-da-semana" value="2"> Segunda-feira <br>
+            <input type="checkbox" name="dia-da-semana" value="4"> Quarta-feira <br>
+            <input type="checkbox" name="dia-da-semana" value="6"> Sexta-feira <br>
+            <input type="radio" name="horario" value="manha">Manhã 
+            <input type="radio" name="horario" value="tarde">Tarde 
+            <input type="radio" name="horario" value="noite">Noite <br>
+            <textarea name="comentario" id="" cols="50" rows="10"></textarea> <br>
+            <input list="cidade" name="cidade">
+            <datalist name="cidade" id="cidade">
+                <option value="">Selecione a cidade</option>
+                <option value="Goiania">Goiania</option>
+                <option value="Florianópolis">Florianópolis</option>
+            </datalist> <br>
+            <select name="genero" id="">
+                <option value="">Selecione seu genero</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+            </select><br>
+            <button type="button">outra ação</button>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        &copy; 2024 - Marcos Netto
+    </footer>
+    
+</body>
+</html>
